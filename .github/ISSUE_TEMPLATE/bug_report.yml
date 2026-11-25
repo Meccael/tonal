@@ -1,0 +1,59 @@
+name: Bug report
+description: Something in Tonal does not work as expected
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping. Please fill in as much as you can. A log makes most bugs much easier to fix.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open ...
+        2. Tap ...
+        3. See ...
+  - type: input
+    id: device
+    attributes:
+      label: Phone and Android version
+      placeholder: "e.g. OnePlus 12, Android 15 (ColorOS 15)"
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Tonal version or commit
+      placeholder: "e.g. 1.0, or the commit hash you built"
+  - type: dropdown
+    id: area
+    attributes:
+      label: Where does it happen?
+      multiple: true
+      options:
+        - Player
+        - Home / library
+        - Queue / playlists
+        - Open With (from a file manager)
+        - USB drive
+        - Lyrics
+        - Artwork
+        - Equalizer
+        - Notification / lock screen
+        - Settings
+        - Other
+  - type: textarea
+    id: log
+    attributes:
+      label: Log (optional but very helpful)
+      description: |
+        Connect the phone, then run `adb logcat -d > log.txt` right after the problem. Attach the file, or paste the relevant lines. Check it first and remove anything private.
+      render: shell

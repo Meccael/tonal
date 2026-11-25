@@ -1,0 +1,15 @@
+name: Suggestion or feature request
+description: An idea for Tonal
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like to see?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why would it help?
+      description: Describe the situation it solves. A screenshot or a sketch is welcome.
