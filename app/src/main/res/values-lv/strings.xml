@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_menu_overflow_description">Vairāk opciju</string>
+    <string name="abc_action_mode_done">Gatavs</string>
+    <string name="abc_capital_off">IZSLĒGTS</string>
+    <string name="abc_capital_on">IESLĒGTS</string>
+    <string name="abc_search_hint">Meklējiet…</string>
+    <string name="abc_searchview_description_clear">Notīrīt vaicājumu</string>
+    <string name="abc_searchview_description_search">Meklēt</string>
+    <string name="abc_searchview_description_submit">Iesniegt vaicājumu</string>
+    <string name="abc_searchview_description_voice">Meklēšana ar balsi</string>
+    <string name="abc_toolbar_collapse_description">Sakļaut</string>
+    <string name="open_with_failed">Neizdevās atvērt šo dziesmu. Tā vietā tiek rādīta jūsu bibliotēka.</string>
+</resources>

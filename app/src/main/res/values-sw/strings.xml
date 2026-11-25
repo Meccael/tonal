@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_menu_overflow_description">Chaguo zaidi</string>
+    <string name="abc_action_mode_done">Nimemaliza</string>
+    <string name="abc_capital_off">IMEZIMWA</string>
+    <string name="abc_capital_on">IMEWASHWA</string>
+    <string name="abc_search_hint">Tafuta…</string>
+    <string name="abc_searchview_description_clear">Futa hoja</string>
+    <string name="abc_searchview_description_search">Tafuta</string>
+    <string name="abc_searchview_description_submit">Wasilisha hoja</string>
+    <string name="abc_searchview_description_voice">Tafuta kwa kutamka</string>
+    <string name="abc_toolbar_collapse_description">Kunja</string>
+    <string name="open_with_failed">Imeshindwa kufungua wimbo huo. Inaonyesha maktaba yako badala yake.</string>
+</resources>

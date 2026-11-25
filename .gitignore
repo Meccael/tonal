@@ -1,0 +1,22 @@
+# Build output and tooling
+build/
+.gradle/
+.idea/
+*.iml
+captures/
+local.properties
+
+# Packages and signing keys: never commit these
+*.apk
+*.aab
+*.jks
+*.keystore
+
+# Working files, not part of the project
+Claude outputs/
+_review/
+migration_artifacts/
+latest_logcat.txt
+usb.txt
+drive.txt
+*.zip

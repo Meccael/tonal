@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android">
+    <slide
+        android:duration="250"
+        android:startDelay="200"
+        android:slideEdge="bottom">
+        <targets>
+            <target android:targetId="@+id/controls"/>
+            <target android:targetId="@+id/action_playlist_open"/>
+        </targets>
+    </slide>
+    <slide
+        android:duration="250"
+        android:slideEdge="bottom">
+        <targets>
+            <target android:targetId="@+id/recents_layout"/>
+        </targets>
+    </slide>
+    <slide
+        android:duration="250"
+        android:slideEdge="top">
+        <targets>
+            <target android:targetId="@+id/home_carousel"/>
+        </targets>
+    </slide>
+</transitionSet>

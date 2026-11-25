@@ -1,0 +1,19 @@
+[versions]
+agp = "9.6.0-alpha05"
+gradle = "9.5.1"
+gradle-toolchains-foojay-resolver-convention = "1.0.0"
+recyclerview = "1.4.0"
+cronet = "500.1.0"
+kotlin = "2.2.10"
+
+[libraries]
+gradle = { group = "com.android.tools.build", name = "gradle", version.ref = "gradle" }
+recyclerview = { module = "androidx.recyclerview:recyclerview", version.ref = "recyclerview" }
+cronet = { group = "org.chromium.net", name = "cronet", version.ref = "cronet" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+foojay = { id = "org.gradle.toolchains.foojay-resolver-convention", version.ref = "gradle-toolchains-foojay-resolver-convention" }
+

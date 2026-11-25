@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="icvp_center_page_scale_offset" format="dimension" />
+    <attr name="icvp_interpolator" format="reference" />
+    <attr name="icvp_max_page_scale" format="float" />
+    <attr name="icvp_medium_scaled" format="boolean" />
+    <attr name="icvp_min_page_scale" format="float" />
+    <attr name="icvp_min_page_scale_offset" format="dimension" />
+    <attr name="icvp_scroll_duration" format="integer" />
+
+    <attr name="msb_recyclerView" format="reference" />
+    <attr name="msb_lightOnTouch" format="reference|boolean" />
+    <attr name="msb_handleColour" format="reference|color" />
+    <attr name="msb_barColour" format="reference|color" />
+    <attr name="msb_handleOffColour" format="reference|color" />
+    <attr name="msb_barThickness" format="reference|dimension" />
+    <attr name="msb_hideDelayInMilliseconds" format="reference|integer" />
+    <attr name="msb_autoHide" format="reference|boolean" />
+
+    <attr name="blockNumber" format="integer" />
+    <attr name="blockSpacing" format="dimension" />
+    <attr name="speed" format="integer" />
+    <attr name="stopSize" format="dimension" />
+    <attr name="startOff" format="boolean" />
+    <attr name="textColorError" format="color" />
+    <attr name="shape" format="string|enum">
+        <enum name="circle" value="1" />
+        <enum name="rectangle" value="0" />
+    </attr>
+    <attr name="marksCount" format="integer" />
+    <attr name="normalColor" format="color" />
+    <attr name="activeColor" format="color" />
+    <attr name="showActiveRange" format="boolean" />
+    <attr name="endLock" format="boolean" />
+    <attr name="onlyPositiveValues" format="boolean" />
+    <attr name="snapToMarks" format="boolean" />
+
+    <declare-styleable name="HorizontalInfiniteCycleViewPager">
+        <attr name="icvp_center_page_scale_offset" />
+        <attr name="icvp_interpolator" />
+        <attr name="icvp_max_page_scale" />
+        <attr name="icvp_medium_scaled" />
+        <attr name="icvp_min_page_scale" />
+        <attr name="icvp_min_page_scale_offset" />
+        <attr name="icvp_scroll_duration" />
+    </declare-styleable>
+    <declare-styleable name="HorizontalWheelView">
+        <attr name="marksCount" />
+        <attr name="normalColor" />
+        <attr name="activeColor" />
+        <attr name="showActiveRange" />
+        <attr name="endLock" />
+        <attr name="onlyPositiveValues" />
+        <attr name="snapToMarks" />
+    </declare-styleable>
+    <declare-styleable name="CoverView">
+        <attr name="shape" />
+    </declare-styleable>
+    <declare-styleable name="VuMeterView">
+        <attr name="blockNumber" />
+        <attr name="blockSpacing" />
+        <attr name="speed" />
+        <attr name="stopSize" />
+        <attr name="startOff" />
+    </declare-styleable>
+    <declare-styleable name="MaterialScrollBar">
+        <attr name="msb_recyclerView" />
+        <attr name="msb_lightOnTouch" />
+        <attr name="msb_handleColour" />
+        <attr name="msb_barColour" />
+        <attr name="msb_handleOffColour" />
+        <attr name="msb_barThickness" />
+        <attr name="msb_hideDelayInMilliseconds" />
+        <attr name="msb_autoHide" />
+    </declare-styleable></resources>

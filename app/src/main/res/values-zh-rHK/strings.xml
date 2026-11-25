@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_menu_overflow_description">更多選項</string>
+    <string name="abc_action_mode_done">完成</string>
+    <string name="abc_capital_off">關閉</string>
+    <string name="abc_capital_on">開啟</string>
+    <string name="abc_search_hint">搜尋…</string>
+    <string name="abc_searchview_description_clear">清除查詢</string>
+    <string name="abc_searchview_description_search">搜尋</string>
+    <string name="abc_searchview_description_submit">提交查詢</string>
+    <string name="abc_searchview_description_voice">語音搜尋</string>
+    <string name="abc_toolbar_collapse_description">收合</string>
+    <string name="open_with_failed">無法開啟該歌曲，已改為顯示你的媒體庫。</string>
+</resources>

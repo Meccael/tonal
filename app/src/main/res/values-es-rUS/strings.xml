@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_menu_overflow_description">Más opciones</string>
+    <string name="abc_action_mode_done">Listo</string>
+    <string name="abc_capital_off">DESACTIVADO</string>
+    <string name="abc_capital_on">ACTIVADO</string>
+    <string name="abc_search_hint">Buscar…</string>
+    <string name="abc_searchview_description_clear">Eliminar la consulta</string>
+    <string name="abc_searchview_description_search">Búsqueda</string>
+    <string name="abc_searchview_description_submit">Enviar consulta</string>
+    <string name="abc_searchview_description_voice">Búsqueda por voz</string>
+    <string name="abc_toolbar_collapse_description">Contraer</string>
+    <string name="open_with_failed">No se pudo abrir esa canción. Se muestra tu biblioteca.</string>
+</resources>

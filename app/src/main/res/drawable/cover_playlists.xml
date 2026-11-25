@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Tonal home card cover. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="512dp"
+    android:height="512dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+    <path android:fillColor="#343434" android:pathData="M0,0 h512 v512 h-512 z"/>
+    <path android:fillColor="#EADFC8" android:pathData="M177,100 h216 a17,17 0 0 1 17,17 v0 a17,17 0 0 1 -17,17 h-216 a17,17 0 0 1 -17,-17 v-0 a17,17 0 0 1 17,-17 z"/>
+    <path android:fillColor="#4A4A4A" android:pathData="M177,160 h216 a17,17 0 0 1 17,17 v0 a17,17 0 0 1 -17,17 h-216 a17,17 0 0 1 -17,-17 v-0 a17,17 0 0 1 17,-17 z"/>
+    <path android:fillColor="#4A4A4A" android:pathData="M177,220 h216 a17,17 0 0 1 17,17 v0 a17,17 0 0 1 -17,17 h-216 a17,17 0 0 1 -17,-17 v-0 a17,17 0 0 1 17,-17 z"/>
+    <path android:fillColor="#4A4A4A" android:pathData="M177,280 h136 a17,17 0 0 1 17,17 v0 a17,17 0 0 1 -17,17 h-136 a17,17 0 0 1 -17,-17 v-0 a17,17 0 0 1 17,-17 z"/>
+    <path android:fillColor="#EADFC8" android:pathData="M96,100 L96,134 L132,117 z"/>
+</vector>

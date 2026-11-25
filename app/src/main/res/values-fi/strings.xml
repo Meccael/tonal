@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_menu_overflow_description">Lisää</string>
+    <string name="abc_action_mode_done">Valmis</string>
+    <string name="abc_capital_off">POIS KÄYTÖSTÄ</string>
+    <string name="abc_capital_on">KÄYTÖSSÄ</string>
+    <string name="abc_search_hint">Haku…</string>
+    <string name="abc_searchview_description_clear">Tyhjennä kysely</string>
+    <string name="abc_searchview_description_search">Haku</string>
+    <string name="abc_searchview_description_submit">Lähetä kysely</string>
+    <string name="abc_searchview_description_voice">Puhehaku</string>
+    <string name="abc_toolbar_collapse_description">Kutista</string>
+    <string name="open_with_failed">Kappaleen avaaminen ei onnistunut. Näytetään kirjastosi sen sijaan.</string>
+</resources>

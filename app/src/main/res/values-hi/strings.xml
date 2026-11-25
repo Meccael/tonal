@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_menu_overflow_description">अधिक विकल्प</string>
+    <string name="abc_action_mode_done">पूर्ण</string>
+    <string name="abc_capital_off">बंद</string>
+    <string name="abc_capital_on">चालू</string>
+    <string name="abc_search_hint">खोजा जा रहा है…</string>
+    <string name="abc_searchview_description_clear">क्‍वेरी साफ़ करें</string>
+    <string name="abc_searchview_description_search">खोजें</string>
+    <string name="abc_searchview_description_submit">क्वेरी सबमिट करें</string>
+    <string name="abc_searchview_description_voice">ध्वनि खोज</string>
+    <string name="abc_toolbar_collapse_description">संक्षिप्त करें</string>
+    <string name="open_with_failed">वह गाना नहीं खोला जा सका। इसके बजाय आपकी लाइब्रेरी दिखाई जा रही है।</string>
+</resources>

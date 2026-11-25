@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android" android:duration="@integer/transition_duration_fragments">
+    <transition class="com.meccael.tonal.transition.ProgressViewTransition"/>
+    <transition class="com.meccael.tonal.transition.CoverViewTransition"/>
+    <transitionSet>
+        <changeBounds/>
+        <changeTransform/>
+        <changeClipBounds/>
+        <changeImageTransform/>
+    </transitionSet>
+</transitionSet>

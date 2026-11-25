@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Tonal: record peeking out of a sleeve, used as the Albums card cover on Home. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="512dp"
+    android:height="512dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+    <path android:fillColor="#343434" android:pathData="M0,0 h512 v512 h-512 z"/>
+    <path android:fillColor="#202020" android:pathData="M86,236 a170,170 0 1,0 340,0 a170,170 0 1,0 -340,0 z"/>
+    <path android:strokeColor="#3C3C3C" android:strokeWidth="3" android:pathData="M106,236 a150,150 0 1,0 300,0 a150,150 0 1,0 -300,0 z"/>
+    <path android:strokeColor="#3C3C3C" android:strokeWidth="3" android:pathData="M126,236 a130,130 0 1,0 260,0 a130,130 0 1,0 -260,0 z"/>
+    <path android:strokeColor="#3C3C3C" android:strokeWidth="3" android:pathData="M146,236 a110,110 0 1,0 220,0 a110,110 0 1,0 -220,0 z"/>
+    <path android:strokeColor="#3C3C3C" android:strokeWidth="3" android:pathData="M166,236 a90,90 0 1,0 180,0 a90,90 0 1,0 -180,0 z"/>
+    <path android:fillColor="#EADFC8" android:pathData="M196,236 a60,60 0 1,0 120,0 a60,60 0 1,0 -120,0 z"/>
+    <path android:fillColor="#343434" android:pathData="M247,236 a9,9 0 1,0 18,0 a9,9 0 1,0 -18,0 z"/>
+    <path android:fillColor="#4A4A4A" android:pathData="M70,290 h372 a14,14 0 0 1 14,14 v142 a14,14 0 0 1 -14,14 h-372 a14,14 0 0 1 -14,-14 v-142 a14,14 0 0 1 14,-14 z"/>
+    <path android:fillColor="#EADFC8" android:pathData="M70,290 h372 v5 h-372 z"/>
+</vector>

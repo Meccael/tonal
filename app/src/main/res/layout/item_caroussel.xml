@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardBackgroundColor="@color/colorGreyTransparent"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="14dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="true">
+
+        <ImageView
+            android:id="@+id/picture"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop" />
+
+        <ImageButton
+            android:id="@+id/more"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_marginTop="4dp"
+            android:scaleX="0"
+            android:scaleY="0"
+            android:src="@drawable/ic_more_white_24dp" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-8dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="1"
+        android:shadowColor="#66000000"
+        android:shadowDx="0"
+        android:shadowDy="22"
+        android:shadowRadius="22"
+        android:textAllCaps="true"
+        android:textColor="@color/colorLight"
+        android:textSize="28sp" />
+</LinearLayout>

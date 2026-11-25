@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_menu_overflow_description">ተጨማሪ አማራጮች</string>
+    <string name="abc_action_mode_done">ተከናውኗል</string>
+    <string name="abc_capital_off">ጠፍቷል</string>
+    <string name="abc_capital_on">በርቷል</string>
+    <string name="abc_search_hint">ፈልግ…</string>
+    <string name="abc_searchview_description_clear">መጠይቅ አጽዳ</string>
+    <string name="abc_searchview_description_search">ፍለጋ</string>
+    <string name="abc_searchview_description_submit">መጠይቅ ያስረክቡ</string>
+    <string name="abc_searchview_description_voice">የድምፅ ፍለጋ</string>
+    <string name="abc_toolbar_collapse_description">ሰብስብ</string>
+    <string name="open_with_failed">ያንን ዘፈን መክፈት አልተቻለም። በምትኩ ቤተ-መጽሐፍትዎን በማሳየት ላይ።</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/cards_open"
+        android:title="@string/playlist_open"/>
+    <item
+        android:id="@+id/cards_play"
+        android:title="@string/playlist_play"/>
+    <item
+        android:id="@+id/cards_add_to_current_playlist"
+        android:title="@string/playlist_current_add"/>
+    <item
+        android:id="@+id/cards_delete"
+        android:title="@string/playlist_delete"/>
+</menu>

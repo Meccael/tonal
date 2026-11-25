@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="abc_config_activityDefaultDur">220</integer>
+    <integer name="abc_config_activityShortDur">150</integer>
+    <integer name="transition_duration_coverback">300</integer>
+    <integer name="transition_duration_fragments">350</integer>
+    <integer name="transition_duration_list">250</integer>
+    <integer name="transition_duration_settings">200</integer>
+</resources>

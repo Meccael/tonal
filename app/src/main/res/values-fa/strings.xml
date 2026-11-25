@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_menu_overflow_description">گزینه‌های بیشتر</string>
+    <string name="abc_action_mode_done">تمام</string>
+    <string name="abc_capital_off">خاموش</string>
+    <string name="abc_capital_on">روشن</string>
+    <string name="abc_search_hint">جستجو…</string>
+    <string name="abc_searchview_description_clear">پاک کردن عبارت جستجو</string>
+    <string name="abc_searchview_description_search">جستجو</string>
+    <string name="abc_searchview_description_submit">ارسال عبارت جستجو</string>
+    <string name="abc_searchview_description_voice">جستجوی شفاهی</string>
+    <string name="abc_toolbar_collapse_description">کوچک کردن</string>
+    <string name="open_with_failed">باز کردن آن آهنگ ممکن نبود. به جای آن کتابخانه شما نمایش داده می‌شود.</string>
+</resources>

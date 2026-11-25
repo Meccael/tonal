@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_menu_overflow_description">Více možností</string>
+    <string name="abc_action_mode_done">Hotovo</string>
+    <string name="abc_capital_off">VYPNUTO</string>
+    <string name="abc_capital_on">ZAPNUTO</string>
+    <string name="abc_search_hint">Vyhledat…</string>
+    <string name="abc_searchview_description_clear">Smazat dotaz</string>
+    <string name="abc_searchview_description_search">Hledat</string>
+    <string name="abc_searchview_description_submit">Odeslat dotaz</string>
+    <string name="abc_searchview_description_voice">Hlasové vyhledávání</string>
+    <string name="abc_toolbar_collapse_description">Sbalit</string>
+    <string name="open_with_failed">Tuto skladbu se nepodařilo otevřít. Místo ní se zobrazuje vaše knihovna.</string>
+</resources>

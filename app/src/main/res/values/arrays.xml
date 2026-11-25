@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home_white_24dp</item>
+        <item>@drawable/ic_playlist_white_24dp</item>
+        <item>@drawable/ic_info_white_24dp</item>
+        <item>@drawable/ic_equalizer_white_24dp</item>
+        <item>@drawable/ic_settings_white_24dp</item>
+        <item>@drawable/ic_exit_to_app_white_24dp</item>
+    </array>
+    <array name="nav_drawer_labels">
+        <item>@string/menu_main</item>
+        <item>@string/menu_playlist</item>
+        <item>@string/menu_updater</item>
+        <item>@string/menu_equalizer</item>
+        <item>@string/menu_settings</item>
+        <item>@string/menu_exit</item>
+    </array>
+</resources>

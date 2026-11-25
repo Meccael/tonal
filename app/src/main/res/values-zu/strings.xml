@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_menu_overflow_description">Izinketho eziningi</string>
+    <string name="abc_action_mode_done">Kwenziwe</string>
+    <string name="abc_capital_off">VALIWE</string>
+    <string name="abc_capital_on">VULIWE</string>
+    <string name="abc_search_hint">Iyasesha...</string>
+    <string name="abc_searchview_description_clear">Sula inkinga</string>
+    <string name="abc_searchview_description_search">Sesha</string>
+    <string name="abc_searchview_description_submit">Hambisa umbuzo</string>
+    <string name="abc_searchview_description_voice">Ukusesha ngezwi</string>
+    <string name="abc_toolbar_collapse_description">Goqa</string>
+    <string name="open_with_failed">Ayikwazanga ukuvula leyo ngoma. Kubonisa umtapo wakho esikhundleni.</string>
+</resources>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+    <!-- Header: blurred cover, the cover itself, then size / format either side of it -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/details_cover_blur"
+            android:layout_width="match_parent"
+            android:layout_height="156dp"
+            android:background="@color/colorGrey"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="156dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/xml_gradient" />
+
+        <TextView
+            android:id="@+id/details_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="86dp"
+            android:layout_toStartOf="@+id/details_cardview"
+            android:shadowColor="@color/colorPrimary"
+            android:shadowDx="0"
+            android:shadowDy="8"
+            android:shadowRadius="22"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/details_format"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="86dp"
+            android:layout_toEndOf="@+id/details_cardview"
+            android:shadowColor="@color/colorPrimary"
+            android:shadowDx="0"
+            android:shadowDy="8"
+            android:shadowRadius="22"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/details_cardview"
+            android:layout_width="112dp"
+            android:layout_height="112dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="44dp"
+            app:cardCornerRadius="3dp"
+            app:cardElevation="10dp"
+            app:cardPreventCornerOverlap="false">
+
+            <ImageView
+                android:id="@+id/details_cover"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:id="@+id/details_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/details_cardview"
+            android:padding="18dp"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/details_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginBottom="4dp"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:textColor="@color/colorBlack"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/details_artist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:textColor="@color/colorBlack"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/details_album"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:textColor="@color/colorBlack"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/details_genre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:textColor="@color/colorBlack"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/details_year"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:textColor="@color/colorBlack"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/details_duration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:textColor="@color/colorBlack"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/details_bitrate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:textColor="@color/colorBlack"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/details_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="4dp"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:textColor="@color/colorBlack"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/details_close"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_gravity="end"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:maxLines="1"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:text="@string/close"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

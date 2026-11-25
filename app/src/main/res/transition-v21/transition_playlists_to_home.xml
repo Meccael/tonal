@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android">
+    <slide
+        android:duration="@integer/transition_duration_fragments"
+        android:slideEdge="left">
+        <targets>
+            <target android:targetId="@+id/list_cards"/>
+        </targets>
+    </slide>
+    <slide
+        android:duration="@integer/transition_duration_fragments"
+        android:slideEdge="left">
+        <targets>
+            <target android:targetId="@+id/home_carousel"/>
+        </targets>
+    </slide>
+    <slide
+        android:duration="@integer/transition_duration_fragments"
+        android:slideEdge="bottom">
+        <targets>
+            <target android:targetId="@+id/list_recents"/>
+        </targets>
+    </slide>
+</transitionSet>

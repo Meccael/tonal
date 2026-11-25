@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android">
+    <slide
+        android:duration="@integer/transition_duration_fragments"
+        android:slideEdge="bottom">
+        <targets>
+            <target android:targetId="@+id/list_songs"/>
+        </targets>
+    </slide>
+    <slide
+        android:duration="@integer/transition_duration_fragments"
+        android:slideEdge="bottom">
+        <targets>
+            <target android:targetId="@+id/playlist_header"/>
+        </targets>
+    </slide>
+    <slide
+        android:duration="250"
+        android:startDelay="200"
+        android:slideEdge="bottom">
+        <targets>
+            <target android:targetId="@+id/controls"/>
+            <target android:targetId="@+id/action_playlist_open"/>
+        </targets>
+    </slide>
+</transitionSet>

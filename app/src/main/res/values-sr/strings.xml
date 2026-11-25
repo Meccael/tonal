@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_menu_overflow_description">Још опција</string>
+    <string name="abc_action_mode_done">Готово</string>
+    <string name="abc_capital_off">ИСКЉУЧИ</string>
+    <string name="abc_capital_on">УКЉУЧИ</string>
+    <string name="abc_search_hint">Претражите...</string>
+    <string name="abc_searchview_description_clear">Брисање упита</string>
+    <string name="abc_searchview_description_search">Претрага</string>
+    <string name="abc_searchview_description_submit">Слање упита</string>
+    <string name="abc_searchview_description_voice">Гласовна претрага</string>
+    <string name="abc_toolbar_collapse_description">Скупи</string>
+    <string name="open_with_failed">Није могуће отворити ту песму. Уместо тога приказује се ваша библиотека.</string>
+</resources>

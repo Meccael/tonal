@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="android:windowBackground">@color/colorDark</item>
+        <item name="android:colorBackground">@color/colorDark</item>
+        <item name="android:alertDialogTheme">@style/AlertDialog</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="drawerArrowStyle">@style/drawerArrowStyle</item>
+
+        <!-- Material 3 Color Roles -->
+        <item name="colorPrimary">@color/md_theme_dark_primary</item>
+        <item name="colorOnPrimary">@color/md_theme_dark_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/md_theme_dark_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/md_theme_dark_onPrimaryContainer</item>
+
+        <item name="colorSecondary">@color/md_theme_dark_secondary</item>
+        <item name="colorOnSecondary">@color/md_theme_dark_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/md_theme_dark_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/md_theme_dark_onSecondaryContainer</item>
+
+        <item name="colorSurface">@color/md_theme_dark_surface</item>
+        <item name="colorOnSurface">@color/md_theme_dark_onSurface</item>
+        <item name="colorSurfaceVariant">@color/md_theme_dark_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/md_theme_dark_onSurfaceVariant</item>
+
+        <item name="colorOutline">@color/md_theme_dark_outline</item>
+        <item name="colorError">@color/md_theme_dark_error</item>
+        <item name="colorOnError">@color/md_theme_dark_onError</item>
+
+        <item name="colorControlHighlight">@color/colorGreyTransparent</item>
+        <item name="alertDialogTheme">@style/AlertDialog</item>
+        <item name="materialAlertDialogTheme">@style/AlertDialog</item>
+    </style>
+
+    <style name="AppTheme.Main" parent="@style/AppTheme"><item name="android:windowContentTransitions">true</item><item name="android:windowSharedElementsUseOverlay">false</item></style>
+
+    <style name="AlertDialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:editTextColor">@color/colorWhite</item>
+        <item name="windowNoTitle">true</item>
+        <item name="editTextColor">@color/colorWhite</item>
+        <item name="colorPrimary">@color/md_theme_dark_secondary</item>
+        <item name="colorAccent">@color/md_theme_dark_secondary</item>
+    </style>
+
+
+    <style name="DialogAnimation" parent="">
+        <item name="android:windowEnterAnimation">@anim/animation_menu_slide_up</item>
+        <item name="android:windowExitAnimation">@anim/animation_menu_slide_down</item>
+    </style>
+
+    <style name="drawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/colorWhite</item>
+        <item name="spinBars">true</item>
+    </style>
+    <style name="Theme.Tonal.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/tonal_splash_bg</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash_animated</item>
+        <item name="windowSplashScreenAnimationDuration">1000</item>
+        <item name="postSplashScreenTheme">@style/AppTheme.Main</item>
+    </style>
+</resources>

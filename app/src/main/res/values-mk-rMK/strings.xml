@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_menu_overflow_description">Повеќе опции</string>
+    <string name="abc_action_mode_done">Готово</string>
+    <string name="abc_capital_off">ИСКЛУЧЕНО</string>
+    <string name="abc_capital_on">ВКЛУЧЕНО</string>
+    <string name="abc_search_hint">Пребарување…</string>
+    <string name="abc_searchview_description_clear">Исчисти барање</string>
+    <string name="abc_searchview_description_search">Пребарај</string>
+    <string name="abc_searchview_description_submit">Поднеси барање</string>
+    <string name="abc_searchview_description_voice">Гласовно пребарување</string>
+    <string name="abc_toolbar_collapse_description">Собери</string>
+    <string name="open_with_failed">Не можеше да се отвори таа песна. Наместо тоа се прикажува вашата библиотека.</string>
+</resources>

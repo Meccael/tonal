@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_menu_overflow_description">Інші опції</string>
+    <string name="abc_action_mode_done">Готово</string>
+    <string name="abc_capital_off">ВИМК.</string>
+    <string name="abc_capital_on">УВІМК.</string>
+    <string name="abc_search_hint">Пошук…</string>
+    <string name="abc_searchview_description_clear">Очистити запит</string>
+    <string name="abc_searchview_description_search">Пошук</string>
+    <string name="abc_searchview_description_submit">Надіслати запит</string>
+    <string name="abc_searchview_description_voice">Голосовий пошук</string>
+    <string name="abc_toolbar_collapse_description">Згорнути</string>
+    <string name="open_with_failed">Не вдалося відкрити цю пісню. Натомість показано вашу бібліотеку.</string>
+</resources>

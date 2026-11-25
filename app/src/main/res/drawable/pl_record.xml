@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item><shape android:shape="oval"><solid android:color="#222222"/><stroke android:width="1dp" android:color="#1AEADFC8"/></shape></item>
+    <item android:inset="9dp"><shape android:shape="oval"><solid android:color="#00000000"/><stroke android:width="1dp" android:color="#2E2E2E"/></shape></item>
+    <item android:inset="16dp"><shape android:shape="oval"><solid android:color="#00000000"/><stroke android:width="1dp" android:color="#2B2B2B"/></shape></item>
+    <item android:inset="23dp"><shape android:shape="oval"><solid android:color="#00000000"/><stroke android:width="1dp" android:color="#2E2E2E"/></shape></item>
+    <item android:inset="30dp"><shape android:shape="oval"><solid android:color="#00000000"/><stroke android:width="1dp" android:color="#2B2B2B"/></shape></item>
+    <item android:inset="42dp"><shape android:shape="oval"><solid android:color="#EADFC8"/></shape></item>
+    <item android:inset="59dp"><shape android:shape="oval"><solid android:color="#1D1D1D"/></shape></item>
+    <item android:inset="5dp" android:top="3dp" android:left="3dp"><shape android:shape="oval"><solid android:color="#00000000"/><stroke android:width="2dp" android:color="#0DEADFC8"/></shape></item>
+</layer-list>

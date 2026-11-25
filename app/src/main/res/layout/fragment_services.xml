@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.meccael.tonal.views.CustomRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/tonal_button"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="6dp"
+            android:layout_marginBottom="6dp"
+            layout="@layout/service_tonal_selected" />
+
+        <include
+            android:id="@+id/musixmatch_button"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="6dp"
+            android:layout_marginBottom="6dp"
+            layout="@layout/service_musixmatch" />
+    </LinearLayout>
+</com.meccael.tonal.views.CustomRelativeLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Blurred cover that tints the whole app -->
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.6"
+        android:scaleType="centerCrop" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Every screen is swapped into this container -->
+        <FrameLayout
+            android:id="@+id/container_body"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true" />
+
+        <View
+            android:id="@+id/toolbar_background"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:background="@drawable/xml_toolbar" />
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/toolbar_title"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="12dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/title_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/title_artist"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <ImageButton
+                    android:id="@+id/toolbar_search"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/ic_search_white_24dp"
+                    android:visibility="invisible" />
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+
+        <EditText
+            android:id="@+id/searchbar"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="6dp"
+            android:background="@drawable/xml_button"
+            android:drawableEnd="@drawable/ic_cancel_black_18dp"
+            android:elevation="4dp"
+            android:hint="@string/musics_search"
+            android:imeOptions="actionSearch"
+            android:inputType="textCapSentences"
+            android:paddingStart="18dp"
+            android:paddingEnd="18dp"
+            android:textColor="@color/colorDark"
+            android:textColorHint="@color/colorGrey"
+            android:textCursorDrawable="@drawable/xml_divider_dark"
+            android:textSize="16sp"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <fragment
+        android:id="@+id/fragment_navigation_drawer"
+        android:name="com.meccael.tonal.navigation.NavigationDrawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:layout="@layout/navigation_drawer" />
+</androidx.drawerlayout.widget.DrawerLayout>
